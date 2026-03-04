@@ -445,6 +445,10 @@ body {
     .main-content {
         margin-left: 0;
         padding: var(--spacing-lg) var(--spacing-sm);
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        position: relative;
     }
     
     .document-header {
@@ -461,10 +465,27 @@ body {
     
     .content-section {
         padding: var(--spacing-md);
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        background: white !important;
+        margin-bottom: var(--spacing-md);
     }
     
     .content-section h2 {
         font-size: 1.5rem;
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    .document-header {
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    #contentContainer {
+        display: block !important;
+        visibility: visible !important;
     }
     
     .content-section h2::before {
@@ -482,6 +503,12 @@ body {
     .toc-toggle {
         width: 18px;
         font-size: 0.7rem;
+    }
+    
+    .document-footer {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+        padding: var(--spacing-md);
     }
 }
 
