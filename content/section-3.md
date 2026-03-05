@@ -2,45 +2,6 @@
 
 ## Chapter 3.1: Deep Learning Frameworks
 
-### PyTorch
-
-#### Overview
-- **Developer:** Meta (Facebook)
-- **Strengths:** Research flexibility, intuitive API
-- **Adoption:** Preferred by researchers
-
-#### Key Features
-- Dynamic computation graphs
-- Native Python feel
-- Excellent debugging
-- Strong community
-
-#### Core Components
-```python
-import torch
-import torch.nn as nn
-import torch.optim as optim
-```
-
-#### Use Cases
-- Research and prototyping
-- Computer vision (torchvision)
-- NLP (PyTorch-NLP)
-- Custom model architectures
-
-### TensorFlow
-
-#### Overview
-- **Developer:** Google
-- **Strengths:** Production deployment, ecosystem
-- **Adoption:** Industry standard
-
-#### Key Features
-- Static and eager execution
-- TensorBoard visualization
-- TF Serving for deployment
-- Mobile/edge deployment (TFLite)
-
 #### Ecosystem
 - **Keras:** High-level API (integrated)
 - **TensorFlow Hub:** Pre-trained models
@@ -145,12 +106,6 @@ git commit -m "message"
 git push origin main
 ```
 
-#### Best Practices
-- Commit often, push regularly
-- Write clear commit messages
-- Use branches for features
-- .gitignore for large files
-
 #### ML-Specific Tools
 - **DVC:** Data version control
 - **Git LFS:** Large file storage
@@ -212,34 +167,11 @@ CMD ["python", "app.py"]
 - **MLOps:** Experiment tracking, pipelines
 
 #### AI APIs
-- Natural Language API
-- Vision API
-- Translation API
-- Speech-to-Text
 
 #### Compute Options
 - **Compute Engine:** VMs with GPUs/TPUs
 - **Cloud Run:** Containerized deployment
 - **TPUs:** Tensor Processing Units
-
-### Microsoft Azure
-
-#### Azure OpenAI Service
-- **Purpose:** Enterprise OpenAI access
-- **Models:** GPT-4, GPT-3.5, DALL-E
-- **Features:** SLA guarantees, compliance
-- **Integration:** Microsoft ecosystem
-
-#### Azure Machine Learning
-- **Purpose:** ML workspace and deployment
-- **Designer:** No-code ML
-- **MLOps:** Pipelines and automation
-
-#### Cognitive Services
-- Pre-built AI APIs
-- Computer Vision
-- Speech Services
-- Language Understanding
 
 ### Choosing a Platform
 

@@ -201,14 +201,6 @@ Ensuring AI systems behave according to human values and intentions
    - Bias mitigation
    - Inclusive design
 
-#### Best Practices
-
-- Impact assessments before deployment
-- Diverse development teams
-- Regular audits and monitoring
-- User feedback mechanisms
-- Incident response plans
-- Documentation and reporting
 
 #### Regulatory Landscape
 
@@ -386,3 +378,15 @@ Autonomous systems that perceive, decide, and act to achieve goals
 - Train on decentralized data
 - Privacy-preserving
 - Collaborative learning
+
+### AI Model Benchmarks
+**Definition:** A standardized, objective test used to measure and compare the performance, accuracy, and efficiency of different AI systems. [Model Comparison](https://artificialanalysis.ai/models)
+- Example: GPQA, MMLU-Pro, HLE
+**Limitations of Benchmarks:**
+- Training Data Contamination
+- Not consistently applied
+- Too narrow in scope
+- Hard to measure nuanced reasoning
+- Saturation
+- Overfitting
+- Frontier LLMs may be aware that they are being evaluated (New concern)

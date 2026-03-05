@@ -97,7 +97,7 @@ async function loadMarkdownContent() {
         const markdownFile = section.getAttribute('data-markdown');
 
         try {
-            const response = await fetch(markdownFile);
+            const response = await fetch(markdownFile, { cache: 'no-cache' });
             if (!response.ok) throw new Error(`Failed to load ${markdownFile}`);
 
             const markdownText = await response.text();
